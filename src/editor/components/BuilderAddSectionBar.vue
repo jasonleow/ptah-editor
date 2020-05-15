@@ -76,6 +76,11 @@ export default {
   computed: {
     ...mapState('Sidebar', ['builderSections', 'builderGroups']),
 
+    ...mapState('OnBoardingTips', [
+      'isShowTips',
+      'stepTips'
+    ]),
+
     hasHeader () {
       return this.builder.sections.some(section => section.isHeader)
     },
@@ -141,6 +146,13 @@ export default {
     this.selectedSection = null
     this.selectedGroup = []
     this.processing = false
+
+    console.log(this.groups)
+
+    if (this.isShowTips && Number(this.stepTips) === 3) {
+      this.isVisibleBar = true
+      this.selectedGroup = this.groups['FirstScreen']
+    }
   }
 }
 </script>
@@ -164,7 +176,10 @@ export default {
       >
         <ul class="b-add-section__menu" ref="menu">
           <li class="b-add-section__menu-group"
-            :class="[{ 'b-add-section__menu-group_selected': group === selectedGroup}, `g_${name}`]"
+            :class="[
+              { 'b-add-section__menu-group_selected': group === selectedGroup},
+              `g_${name}`
+            ]"
             v-for="(group, name) in groups"
             :key="name"
             v-if="group.length"
@@ -189,6 +204,9 @@ export default {
                 <IconBase width="12" name="arrowDown"/>
               </div>
             </div>
+            <span class="b-add-section__target-tip b-on-boarding-tips-step-3"
+              v-if="name === 'FirstScreen'"
+            />
             <div class="b-add-section-bar" v-show="isVisibleBar && selectedGroup === group">
               <template
                 v-for="(section, index) in filteredSection"
@@ -434,4 +452,8 @@ export default {
     &__bt
       width: 21.6rem
       margin: 0 auto
+
+  &__target-tip
+    width: 90%
+    display: block
 </style>
