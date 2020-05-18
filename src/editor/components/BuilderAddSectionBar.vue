@@ -147,8 +147,6 @@ export default {
     this.selectedGroup = []
     this.processing = false
 
-    console.log(this.groups)
-
     if (this.isShowTips && Number(this.stepTips) === 3) {
       this.isVisibleBar = true
       this.selectedGroup = this.groups['FirstScreen']
