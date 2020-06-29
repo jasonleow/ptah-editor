@@ -42,20 +42,6 @@ import SmmFantasyHeader from '@components/sections/header/SmmFantasyHeader'
 import CenteredLogoHeader from '@components/sections/header/CenteredLogoHeader'
 import ActionButtonWesternHeader from '@components/sections/header/ActionButtonWesternHeader'
 
-// --- hero
-import GenericMainScreen from '@components/sections/hero/HeroUnit'
-import TwoSegmentHeroScreen from '@components/sections/hero/TwoSegmentHeroScreen'
-import ThreeSegmentHeroScreen from '@components/sections/hero/HeroThreeColumns'
-import VideoHeroSplitScreen from '@components/sections/hero/HeroArtRight'
-import HeroVideoSplitScreen from '@components/sections/hero/HeroArtLeft'
-import HeroBAS from '@components/sections/hero/HeroBloodAndSoul'
-import HeroHunt from '@components/sections/hero/HeroHunt'
-import HeroWithTimer from '@components/sections/hero/HeroWithTimer'
-import HeroWithTimerColumns from '@components/sections/hero/HeroWithTimerColumns'
-import HeroWithTimerColumnsVideo from '@components/sections/hero/HeroWithTimerColumnsVideo'
-import HeroWithTimerColumnsVideo2 from '@components/sections/hero/HeroWithTimerColumnsVideo2'
-import HeroWithTimerSlogan from '@components/sections/hero/HeroWithTimerSlogan'
-import HeroWithTimerSlogan2 from '@components/sections/hero/HeroWithTimerSlogan2'
 // --- First screen
 import FirstScreenSpace01 from '@components/sections/first-screen/FirstScreenSpace01'
 import FirstScreenSpace02 from '@components/sections/first-screen/FirstScreenSpace02'
@@ -146,20 +132,6 @@ const COMPONENTS = {
   FirstScreenWesternVideoPlayer01,
   FirstScreenWesternVideoPlayer02,
   FirstScreenWesternVideoBack,
-
-  TwoSegmentHeroScreen,
-  ThreeSegmentHeroScreen,
-  VideoHeroSplitScreen,
-  HeroVideoSplitScreen,
-  HeroBAS,
-  HeroHunt,
-  GenericMainScreen,
-  HeroWithTimer,
-  HeroWithTimerColumns,
-  HeroWithTimerColumnsVideo,
-  HeroWithTimerColumnsVideo2,
-  HeroWithTimerSlogan,
-  HeroWithTimerSlogan2,
 
   Slider,
   SliderFantasy,

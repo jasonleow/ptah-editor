@@ -159,11 +159,6 @@ const C_IMAGES = [
 
 const SCHEMA_CUSTOM = {
   mainStyle: {
-    styles: {
-      'background-image': 'url(https://s3.protocol.one/src/o_u02v0.jpg)',
-      'background-position': '50% 50%',
-      'background-size': 'cover'
-    },
     swiper: {
       autoHeight: true,
       pagination: { el: swiperOptions.pagination },
