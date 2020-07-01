@@ -33,10 +33,21 @@ export default {
   },
 
   methods: {
-    ...mapMutations('Onboarding', ['setPreset']),
+    ...mapMutations('Onboarding', [
+      'setPreset',
+      'setColors',
+      'setFonts',
+      'setSetupFonts',
+      'setBackground'
+    ]),
 
     selectPreset () {
       this.setPreset(this.preset)
+      this.setColors(this.preset.colors)
+      this.setFonts(this.preset.fonts)
+      this.setSetupFonts(this.preset.setupFonts)
+      this.setBackground(this.preset.backgroundImage)
+
       this.$router.push({ path: `/dashboard/wizard/welcome` })
     },
 
@@ -64,7 +75,9 @@ export default {
   &__template
     width: 64rem
     height: calc(100vh - 9rem)
-    background-size: cover
+    background-size: contain
+    background-position: 50% 50%
+    background-repeat: no-repeat
     flex-shrink: 1
 
   &__select

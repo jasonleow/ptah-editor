@@ -76,7 +76,10 @@ export default {
         this.createProgress = true
         this.$Progress.start()
         this.invalid = false
-        this.createLanding({ name: this.name, sections: this.preset.sections })
+        this.createLanding({
+          name: this.name,
+          sections: this.preset.sections
+        })
           .then((response) => {
             let url = this.preset.url
 
@@ -90,6 +93,7 @@ export default {
           })
           .then((data) => {
             this.resetState()
+
             this.$nextTick(() => {
               this.$router.push({ path: `/editor/${data.slug}` })
             })

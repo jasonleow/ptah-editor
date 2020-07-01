@@ -43,6 +43,7 @@ import CenteredLogoHeader from '@components/sections/header/CenteredLogoHeader'
 import ActionButtonWesternHeader from '@components/sections/header/ActionButtonWesternHeader'
 
 // --- First screen
+import FirstScreenAshOfGods01 from '@components/sections/first-screen/FirstScreenAshOfGods01'
 import FirstScreenSpace01 from '@components/sections/first-screen/FirstScreenSpace01'
 import FirstScreenSpace02 from '@components/sections/first-screen/FirstScreenSpace02'
 import FirstScreenSpaceVideoBack from '@components/sections/first-screen/FirstScreenSpaceVideoBack'
@@ -66,10 +67,13 @@ import ProductsFantasy from '@components/sections/products/ProductsFantasy'
 import ProductsExtend from '@components/sections/products/ProductsExtend'
 import ProductsExtendFantasy from '@components/sections/products/ProductsExtendFantasy'
 // --- columns
+import FeaturesAshOfGods01 from '@components/sections/columns/FeaturesAshOfGods01'
+
 import Columns from '@components/sections/columns/Columns'
 import ColumnsFantasy from '@components/sections/columns/ColumnsFantasy'
 import ColumnsWestern from '@components/sections/columns/ColumnsWestern'
 // --- carousel
+import CarouselAshOfGods01 from '@components/sections/carousel/CarouselAshOfGods01'
 import Carousel from '@components/sections/carousel/Carousel'
 // --- forms
 import FormCenter from '@components/sections/forms/FormCenter'
@@ -79,7 +83,11 @@ import FormRight2 from '@components/sections/forms/FormRightSide2'
 import FormLeft from '@components/sections/forms/FormLeftSideVariant'
 import FormLeft2 from '@components/sections/forms/FormLeftSideVariant2'
 
+// --- footers
+import FooterAshOfGods01 from '@components/sections/footers/FooterAshOfGods01'
+
 // --- other
+import CallToActionAshOfGods01 from '@components/sections/elements/CallToActionAshOfGods01'
 import SystemRequirements from '@components/sections/elements/SystemRequirements'
 import SystemRequirementsFantasy from '@components/sections/elements/SystemRequirementsFantasy'
 import SystemRequirementsWestern from '@components/sections/elements/SystemRequirementsWestern'
@@ -121,6 +129,7 @@ const COMPONENTS = {
   SmmFantasyHeader,
   ActionButtonWesternHeader,
 
+  FirstScreenAshOfGods01,
   FirstScreenSpace01,
   FirstScreenSpace02,
   FirstScreenSpaceVideoBack,
@@ -137,12 +146,14 @@ const COMPONENTS = {
   SliderFantasy,
   SliderWestern,
 
+  FeaturesAshOfGods01,
   Columns,
   ColumnsFantasy,
   ColumnsWestern,
 
   GallerySwitch,
   GalleryPopup,
+  CarouselAshOfGods01,
   Carousel,
   GalleryPopupFantasy,
   GallerySwitchFantasy,
@@ -160,12 +171,14 @@ const COMPONENTS = {
   FormRight2,
   FormLeft2,
 
+  CallToActionAshOfGods01,
   SystemRequirements,
   SystemRequirementsFantasy,
   SystemRequirementsWestern,
   FrequentlyAskedQuestions,
   FrequentlyAskedQuestionsWestern,
 
+  FooterAshOfGods01,
   FooterSpace,
   FooterFantasy,
   FooterWestern

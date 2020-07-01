@@ -13,11 +13,29 @@ const COLORS = {
   add2: ''
 }
 
+const FONTS = {
+  'Lato': {
+    variants: ['regular'],
+    subsets: ['latin', 'cyrillic']
+  },
+  'Montserrat': {
+    variants: ['regular'],
+    subsets: ['latin', 'cyrillic']
+  }
+}
+const SETUP_FONTS = {
+  'h1': 'Montserrat',
+  'p': 'Lato',
+  'btn': 'Montserrat'
+}
+
 const defaultState = {
   name: '', // new project name
   logo: '',
   background: '',
   colors: COLORS,
+  fonts: FONTS,
+  setupFonts: SETUP_FONTS,
   imageForPalette: null,
   palette: null,
   checkList: CheckList, // onboarding check-list
@@ -66,6 +84,14 @@ export default {
 
     setColors (state, value) {
       state.colors = value
+    },
+
+    setFonts (state, value) {
+      state.fonts = value
+    },
+
+    setSetupFonts (state, value) {
+      state.setupFonts = value
     },
 
     setGoal (state, value) {
