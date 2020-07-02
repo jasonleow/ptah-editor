@@ -40,7 +40,7 @@ const C_CUSTOM = [
       },
       media: {
         'is-mobile': {
-          'font-size': '3.6rem',
+          'font-size': '3.2rem',
           'padding-left': '40px',
           'padding-right': '40px',
           'padding-top': '0',
@@ -51,18 +51,24 @@ const C_CUSTOM = [
   },
   {
     element: {
-      text: 'BUY NOW',
+      text: '<b>BUY NOW</b>',
       styles: {
-        'background-color': 'rgba(0,0,0,0)',
-        'background-image': 'none',
+        'background-color': '#B93A27',
         'color': '#ECD19A',
+        'font-size': '2.4rem',
         'text-align': 'center',
-        'width': '270px',
+        'width': '228px',
         'height': '62px',
-        'font-size': '2.6rem',
         'border-width': '1px',
         'border-style': 'solid',
         'border-color': '#ECD19A'
+      },
+      media: {
+        'is-mobile': {
+          'font-size': '1.8rem',
+          'width': '191px',
+          'height': '46px'
+        }
       },
       pseudo: {
         hover: {
@@ -129,8 +135,8 @@ export default {
 </script>
 
 <template>
-  <footer
-    class="b-section-footer"
+  <section
+    class="b-call-to-action"
     :class="$sectionData.mainStyle.classes"
     :style="[$sectionData.mainStyle.styles, $sectionData.objVarsMedia]"
     v-styler:section="$sectionData.mainStyle"
@@ -168,7 +174,7 @@ export default {
         </div><!--/.b-grid__row.b-footer__row-->
       </div><!--/.b-grid-->
     </div><!--/.b-footer-->
-  </footer>
+  </section>
 </template>
 
 <style lang="sass" scoped>

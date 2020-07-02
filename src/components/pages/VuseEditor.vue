@@ -35,6 +35,9 @@ import ToggleElement from '@components/elements/ToggleElement'
 
 // sections
 // --- header
+import HeaderAshOfGods01 from '@components/sections/header/HeaderAshOfGods01'
+import HeaderAshOfGods02 from '@components/sections/header/HeaderAshOfGods02'
+import HeaderAshOfGods03 from '@components/sections/header/HeaderAshOfGods03'
 import ActionButtonHeader from '@components/sections/header/ActionButtonHeader'
 import ActionButtonFantasyHeader from '@components/sections/header/ActionButtonFantasyHeader'
 import SmmHeader from '@components/sections/header/SmmHeader'
@@ -44,6 +47,7 @@ import ActionButtonWesternHeader from '@components/sections/header/ActionButtonW
 
 // --- First screen
 import FirstScreenAshOfGods01 from '@components/sections/first-screen/FirstScreenAshOfGods01'
+
 import FirstScreenSpace01 from '@components/sections/first-screen/FirstScreenSpace01'
 import FirstScreenSpace02 from '@components/sections/first-screen/FirstScreenSpace02'
 import FirstScreenSpaceVideoBack from '@components/sections/first-screen/FirstScreenSpaceVideoBack'
@@ -122,6 +126,9 @@ const ELEMENTS = {
 }
 
 const COMPONENTS = {
+  HeaderAshOfGods01,
+  HeaderAshOfGods02,
+  HeaderAshOfGods03,
   ActionButtonHeader,
   SmmHeader,
   CenteredLogoHeader,

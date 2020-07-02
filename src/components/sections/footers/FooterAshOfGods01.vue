@@ -5,10 +5,10 @@ import Seeder from '@editor/seeder'
 import defaults from '../../mixins/defaults'
 import sectionMedia from '../../mixins/sectionMedia'
 
-const GROUP_NAME = 'Footers'
+const GROUP_NAME = 'Footer'
 const NAME = 'FooterAshOfGods01'
 const BG_SECTION = 'none'
-const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/4ab7ee11-0b61-48ea-9a51-0899b8a45b29.jpg'
+const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/71d13303-23bf-4715-811c-42fbd95224d6.jpg'
 const DESCRIPTION = 'Lined up lower block with set of elements'
 
 const COMPONENTS = [
@@ -48,23 +48,25 @@ const C_CUSTOM = [
       },
       media: {
         'is-mobile': {
-          'width': '240px',
-          'height': '72px'
+          'width': '180px',
+          'height': '54px'
         }
       }
     }
   },
   {
     element: {
-      text: `<p>Term & policy, Copyright © ${new Date().getFullYear()}</p>`,
+      text: `<span>Term & policy, Copyright © ${new Date().getFullYear()}</span>`,
       styles: {
         'font-size': '1.8rem',
         'color': '#C4AE78',
+        'padding-top': '13px',
         'padding-right': '32px',
         'padding-left': '32px'
       },
       media: {
         'is-mobile': {
+          'font-size': '1.2rem',
           'text-align': 'center'
         }
       }
@@ -98,6 +100,11 @@ const C_CUSTOM = [
           url: ''
         }
       },
+      media: {
+        'is-mobile': {
+          'margin-top': '70px'
+        }
+      },
       colorFill: {
         color: '#C4AE78'
       },
@@ -113,7 +120,8 @@ const SCHEMA_CUSTOM = {
     styles: {
       'background-image': BG_SECTION,
       'padding-top': '8px',
-      'padding-bottom': '8px'
+      'padding-bottom': '8px',
+      'height': '170px'
     }
   },
   container: {

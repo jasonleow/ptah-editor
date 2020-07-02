@@ -41,7 +41,7 @@ const C_CUSTOM_COLUMN = [
       },
       media: {
         'is-mobile': {
-          'font-size': '2.8rem'
+          'font-size': '2.5rem'
         }
       }
     }
@@ -59,6 +59,7 @@ const C_CUSTOM_COLUMN = [
       },
       media: {
         'is-mobile': {
+          'font-size': '1.5rem',
           'padding-bottom': '40px',
           'padding-left': '20px',
           'padding-right': '20px'
@@ -93,9 +94,9 @@ const C_CUSTOM = [{
     },
     media: {
       'is-mobile': {
-        'font-size': '3.6rem',
-        'padding-top': '30px',
-        'padding-bottom': '30px'
+        'font-size': '3.2rem',
+        'padding-top': '20px',
+        'padding-bottom': '50px'
       }
     }
   }
@@ -115,6 +116,11 @@ const SCHEMA_CUSTOM = {
     styles: {
       'background-image': BG_SECTION,
       'padding-bottom': '122px'
+    },
+    media: {
+      'is-mobile': {
+        'padding-bottom': '96px'
+      }
     },
     count: 3
   },

@@ -36,7 +36,7 @@ const SCHEMA_CUSTOM = {
     styles: {
       'background-image': BG_SECTION,
       'height': '100vh',
-      'margin-bottom': '100px'
+      'padding-bottom': '100px'
     },
     swiper: {
       autoHeight: true,

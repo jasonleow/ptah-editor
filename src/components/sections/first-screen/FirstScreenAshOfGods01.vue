@@ -51,8 +51,8 @@ const C_CUSTOM_1 = [
       },
       media: {
         'is-mobile': {
-          'width': '263px',
-          'height': '91px'
+          'width': '212px',
+          'height': '74px'
         }
       }
     }
@@ -73,7 +73,7 @@ const C_CUSTOM_2 = [
       },
       media: {
         'is-mobile': {
-          'font-size': '2rem',
+          'font-size': '2.2rem',
           'line-height': '1.4',
           'margin-top': '25px',
           'margin-bottom': '25px',
@@ -96,12 +96,17 @@ const C_CUSTOM_2 = [
         'border-style': 'solid',
         'border-color': '#ECD19A'
       },
+      media: {
+        'is-mobile': {
+          'font-size': '1.8rem',
+          'width': '191px',
+          'height': '46px'
+        }
+      },
       pseudo: {
-        'hover': {
-          'background-color': '#333333 !important',
-          'border-width': '1px',
-          'border-style': 'solid',
-          'border-color': '#000000'
+        hover: {
+          'color': '#fff !important',
+          'background-color': 'rgba(0,0,0,0)'
         }
       }
     }
