@@ -33,6 +33,7 @@ const defaultState = {
   name: '', // new project name
   logo: '',
   background: '',
+  backgroundColor: '#fafafa',
   colors: COLORS,
   fonts: FONTS,
   setupFonts: SETUP_FONTS,
@@ -60,6 +61,10 @@ export default {
 
     setBackground (state, value) {
       state.background = value
+    },
+
+    setBackgroundColor (state, value) {
+      state.backgroundColor = value
     },
 
     setActiveStep (state, value) {

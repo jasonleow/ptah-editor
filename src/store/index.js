@@ -184,7 +184,7 @@ const actions = {
           favicon: state.defaultFavicon,
           styles: {
             backgroundImage: state.Onboarding.background,
-            backgroundColor: '',
+            backgroundColor: state.Onboarding.backgroundColor,
             backgroundPositionX: 0,
             backgroundPositionY: 0,
             backgroundAttachment: 'fixed',

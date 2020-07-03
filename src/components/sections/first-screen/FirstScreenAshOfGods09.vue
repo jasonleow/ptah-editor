@@ -42,8 +42,9 @@ const C_CUSTOM_1 = [
       },
       media: {
         'is-mobile': {
-          'width': '212px',
-          'height': '74px'
+          'width': '324px',
+          'height': '103px',
+          'margin-bottom': '44px'
         }
       }
     }
@@ -97,7 +98,10 @@ const SCHEMA_CUSTOM = {
     media: {
       'is-mobile': {
         'background-position': '100% 50%',
-        'padding-bottom': '60px'
+        'padding-top': '80px',
+        'padding-left': '20px',
+        'padding-right': '20px',
+        'padding-bottom': '100px'
       }
     },
     overlay: {

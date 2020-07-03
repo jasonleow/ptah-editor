@@ -151,8 +151,6 @@ export default {
       this.isVisibleBar = true
       this.selectedGroup = this.groups['FirstScreen']
     }
-
-    console.log(this.groups)
   }
 }
 </script>

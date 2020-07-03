@@ -38,7 +38,8 @@ export default {
       'setColors',
       'setFonts',
       'setSetupFonts',
-      'setBackground'
+      'setBackground',
+      'setBackgroundColor'
     ]),
 
     selectPreset () {
@@ -47,6 +48,7 @@ export default {
       this.setFonts(this.preset.fonts)
       this.setSetupFonts(this.preset.setupFonts)
       this.setBackground(this.preset.backgroundImage)
+      this.setBackgroundColor(this.preset.backgroundColor)
 
       this.$router.push({ path: `/dashboard/wizard/welcome` })
     },

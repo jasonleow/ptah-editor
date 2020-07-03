@@ -1,5 +1,5 @@
 <script>
-import { mapActions, mapState, mapMutations } from 'vuex'
+import { mapActions, mapState } from 'vuex'
 import BaseScrollContainer from '../base/BaseScrollContainer'
 
 export default {
@@ -38,10 +38,6 @@ export default {
       'saveLanding',
       'clearSlug',
       'copyLanding'
-    ]),
-
-    ...mapMutations('Onboarding', [
-      'resetState'
     ]),
 
     openLanding (item) {
@@ -92,8 +88,6 @@ export default {
             }
           })
           .then((data) => {
-            this.resetState()
-
             this.$nextTick(() => {
               this.$router.push({ path: `/editor/${data.slug}` })
             })

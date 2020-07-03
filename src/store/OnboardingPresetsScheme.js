@@ -31,6 +31,7 @@ export default [
       add2: '#000000'
     },
     backgroundImage: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/6b0b3b65-e3bf-49ef-8c8c-579fc7581181.jpg',
+    backgroundColor: '#0F1617',
     fonts: {
       'Playfair+Display': {
         variants: ['regular'],
@@ -157,6 +158,7 @@ export default [
       add2: '#000000'
     },
     backgroundImage: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/6b0b3b65-e3bf-49ef-8c8c-579fc7581181.jpg',
+    backgroundColor: '#0F1617',
     fonts: {
       'Playfair+Display': {
         variants: ['regular'],
