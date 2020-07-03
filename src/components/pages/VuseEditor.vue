@@ -80,6 +80,8 @@ import ProductsExtend from '@components/sections/products/ProductsExtend'
 import ProductsExtendFantasy from '@components/sections/products/ProductsExtendFantasy'
 // --- columns
 import FeaturesAshOfGods01 from '@components/sections/columns/FeaturesAshOfGods01'
+import FeaturesAshOfGods02 from '@components/sections/columns/FeaturesAshOfGods02'
+import FeaturesAshOfGods03 from '@components/sections/columns/FeaturesAshOfGods03'
 
 import Columns from '@components/sections/columns/Columns'
 import ColumnsFantasy from '@components/sections/columns/ColumnsFantasy'
@@ -170,6 +172,8 @@ const COMPONENTS = {
   SliderWestern,
 
   FeaturesAshOfGods01,
+  FeaturesAshOfGods02,
+  FeaturesAshOfGods03,
   Columns,
   ColumnsFantasy,
   ColumnsWestern,

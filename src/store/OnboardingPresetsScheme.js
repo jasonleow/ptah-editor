@@ -143,7 +143,8 @@ export default [
     type: 'Ash of Gods page',
     sections: [
       'HeaderAshOfGods01',
-      'FirstScreenAshOfGods02'
+      'FirstScreenAshOfGods02',
+      'FeaturesAshOfGods02'
     ],
     image: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/9b902ac9-6f65-4199-ba4f-d08856890577.jpg',
     description: 'Ash of Gods page',
@@ -157,7 +158,7 @@ export default [
       add1: '#71675B',
       add2: '#000000'
     },
-    backgroundImage: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/6b0b3b65-e3bf-49ef-8c8c-579fc7581181.jpg',
+    backgroundImage: '',
     backgroundColor: '#0F1617',
     fonts: {
       'Playfair+Display': {

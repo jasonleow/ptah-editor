@@ -131,7 +131,8 @@ const SCHEMA_CUSTOM = {
     overlay: {
       color: '#000000',
       opacity: '0.4'
-    }
+    },
+    parallax: true
   },
   components1: merge({}, C_CUSTOM_1),
   container1: {
