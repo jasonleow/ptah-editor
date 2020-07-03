@@ -41,8 +41,6 @@ const C_CUSTOM = [
       media: {
         'is-mobile': {
           'font-size': '3.2rem',
-          'padding-left': '40px',
-          'padding-right': '40px',
           'padding-top': '0',
           'padding-bottom': '50px'
         }
@@ -51,7 +49,7 @@ const C_CUSTOM = [
   },
   {
     element: {
-      text: '<b>BUY NOW</b>',
+      text: 'BUY NOW',
       styles: {
         'background-color': '#B93A27',
         'color': '#ECD19A',
@@ -103,6 +101,12 @@ const SCHEMA_CUSTOM = {
     styles: {
       'padding-top': '8px',
       'padding-bottom': '8px'
+    },
+    media: {
+      'is-mobile': {
+        'padding-top': '40px',
+        'padding-bottom': '50px'
+      }
     }
   },
   components: merge({}, C_CUSTOM),
@@ -144,7 +148,7 @@ export default {
     <slot name="menu"/>
     <slot name="video"/>
     <slot name="overlay"/>
-    <div class="b-footer">
+    <div>
       <div class="b-grid">
         <div class="b-grid__row b-footer__row">
           <div class="b-grid__col-m-12" :class="`b-grid__col-${$sectionData.container.width}`">

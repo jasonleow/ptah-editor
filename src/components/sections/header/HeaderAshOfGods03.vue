@@ -105,7 +105,7 @@ const defaultComponents2 = [
 const defaultComponents3 = [
   {
     element: {
-      text: '<b>BUY NOW</b>',
+      text: 'BUY NOW',
       styles: {
         'background-color': '#B93A27',
         'color': '#ECD19A',

@@ -6,7 +6,7 @@ import defaults from '../../mixins/defaults'
 import sectionMedia from '../../mixins/sectionMedia'
 
 const GROUP_NAME = 'Header'
-const NAME = 'HeaderAshOfGods02'
+const NAME = 'HeaderAshOfGods01'
 const BG_SECTION = 'none'
 const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/304ca970-d39a-45b0-9ce7-deffe91a269e.jpg'
 const DESCRIPTION = 'Logo, links and button'
@@ -99,7 +99,7 @@ const defaultComponents2 = [
 const defaultComponents3 = [
   {
     element: {
-      text: '<b>BUY NOW</b>',
+      text: 'BUY NOW',
       styles: {
         'background-color': '#B93A27',
         'color': '#ECD19A',

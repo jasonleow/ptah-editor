@@ -141,7 +141,8 @@ export default [
   {
     type: 'Ash of Gods page',
     sections: [
-      'HeaderAshOfGods01'
+      'HeaderAshOfGods01',
+      'FirstScreenAshOfGods02'
     ],
     image: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/9b902ac9-6f65-4199-ba4f-d08856890577.jpg',
     description: 'Ash of Gods page',

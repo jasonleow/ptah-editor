@@ -972,7 +972,6 @@ const data = new Map([
         // --- labels position
         position: 'bottom'
       },
-      colorTile: 'rgba(0, 0, 0, 0)'
     },
     typography: true,
     styles: {

@@ -38,7 +38,7 @@ const defaultComponents2 = []
 const defaultComponents3 = [
   {
     element: {
-      text: '<b>BUY NOW</b>',
+      text: 'BUY NOW',
       styles: {
         'background-color': '#B93A27',
         'color': '#ECD19A',
@@ -56,7 +56,7 @@ const defaultComponents3 = [
           'width': '191px',
           'height': '46px',
           'margin-left': '0',
-          'margin-top': '100px',
+          'margin-top': '30px',
           'margin-bottom': '30px'
         }
       },
@@ -72,6 +72,7 @@ const defaultComponents3 = [
 const defaultSchema = {
   mainStyle: {
     hamPosition: 26,
+    sticky: true,
     styles: {
       'background-image': BG_SECTION,
       'background-color': '#0F1617',
@@ -93,7 +94,7 @@ const defaultSchema = {
         'margin-top': '-16px'
       }
     },
-    width: 3,
+    width: 4,
     minWidth: 2,
     maxWidth: 4,
     grow: ['$sectionData.container2'],
@@ -111,7 +112,7 @@ const defaultSchema = {
         'align-items': 'center'
       }
     },
-    width: 6,
+    width: 4,
     minWidth: 4,
     maxWidth: 8,
     grow: ['$sectionData.container', '$sectionData.container3'],
@@ -129,7 +130,7 @@ const defaultSchema = {
         'align-items': 'center'
       }
     },
-    width: 3,
+    width: 4,
     minWidth: 2,
     maxWidth: 4,
     grow: ['$sectionData.container', '$sectionData.container2'],

@@ -47,6 +47,14 @@ import ActionButtonWesternHeader from '@components/sections/header/ActionButtonW
 
 // --- First screen
 import FirstScreenAshOfGods01 from '@components/sections/first-screen/FirstScreenAshOfGods01'
+import FirstScreenAshOfGods02 from '@components/sections/first-screen/FirstScreenAshOfGods02'
+import FirstScreenAshOfGods03 from '@components/sections/first-screen/FirstScreenAshOfGods03'
+import FirstScreenAshOfGods04 from '@components/sections/first-screen/FirstScreenAshOfGods04'
+import FirstScreenAshOfGods05 from '@components/sections/first-screen/FirstScreenAshOfGods05'
+import FirstScreenAshOfGods06 from '@components/sections/first-screen/FirstScreenAshOfGods06'
+import FirstScreenAshOfGods07 from '@components/sections/first-screen/FirstScreenAshOfGods07'
+import FirstScreenAshOfGods08 from '@components/sections/first-screen/FirstScreenAshOfGods08'
+import FirstScreenAshOfGods09 from '@components/sections/first-screen/FirstScreenAshOfGods09'
 
 import FirstScreenSpace01 from '@components/sections/first-screen/FirstScreenSpace01'
 import FirstScreenSpace02 from '@components/sections/first-screen/FirstScreenSpace02'
@@ -137,6 +145,14 @@ const COMPONENTS = {
   ActionButtonWesternHeader,
 
   FirstScreenAshOfGods01,
+  FirstScreenAshOfGods02,
+  FirstScreenAshOfGods03,
+  FirstScreenAshOfGods04,
+  FirstScreenAshOfGods05,
+  FirstScreenAshOfGods06,
+  FirstScreenAshOfGods07,
+  FirstScreenAshOfGods08,
+  FirstScreenAshOfGods09,
   FirstScreenSpace01,
   FirstScreenSpace02,
   FirstScreenSpaceVideoBack,
