@@ -107,9 +107,13 @@ import FormLeft2 from '@components/sections/forms/FormLeftSideVariant2'
 
 // --- footers
 import FooterAshOfGods01 from '@components/sections/footers/FooterAshOfGods01'
+import FooterAshOfGods02 from '@components/sections/footers/FooterAshOfGods02'
+import FooterAshOfGods03 from '@components/sections/footers/FooterAshOfGods03'
+import FooterAshOfGods04 from '@components/sections/footers/FooterAshOfGods04'
 
 // --- other
 import CallToActionAshOfGods01 from '@components/sections/elements/CallToActionAshOfGods01'
+import CallToActionAshOfGods02 from '@components/sections/elements/CallToActionAshOfGods02'
 import SystemRequirements from '@components/sections/elements/SystemRequirements'
 import SystemRequirementsFantasy from '@components/sections/elements/SystemRequirementsFantasy'
 import SystemRequirementsWestern from '@components/sections/elements/SystemRequirementsWestern'
@@ -126,6 +130,7 @@ import SliderAshOfGods02 from '@components/sections/slider/SliderAshOfGods02'
 import SliderAshOfGods03 from '@components/sections/slider/SliderAshOfGods03'
 
 import ElementsAshOfGods01 from '@components/sections/elements/ElementsAshOfGods01'
+import TextWithButtonTwoColumns01 from '@components/sections/elements/TextWithButtonTwoColumns01'
 
 import store from '@store'
 
@@ -222,8 +227,10 @@ const COMPONENTS = {
   FormRight2,
   FormLeft2,
   ElementsAshOfGods01,
+  TextWithButtonTwoColumns01,
 
   CallToActionAshOfGods01,
+  CallToActionAshOfGods02,
   SystemRequirements,
   SystemRequirementsFantasy,
   SystemRequirementsWestern,
@@ -231,6 +238,9 @@ const COMPONENTS = {
   FrequentlyAskedQuestionsWestern,
 
   FooterAshOfGods01,
+  FooterAshOfGods02,
+  FooterAshOfGods03,
+  FooterAshOfGods04,
   FooterSpace,
   FooterFantasy,
   FooterWestern

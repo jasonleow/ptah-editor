@@ -6,12 +6,19 @@ import defaults from '../../mixins/defaults'
 import sectionMedia from '../../mixins/sectionMedia'
 
 const GROUP_NAME = 'Elements'
-const NAME = 'CallToActionAshOfGods01'
-const BG_SECTION = 'url(https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/716d75d7-dbfc-432c-a6a9-88bf6a8a60a3.png)'
-const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/db78f0b9-0736-402d-8035-ac6f43d3a8b6.jpg'
-const DESCRIPTION = 'Block with call to action a button'
+const NAME = 'CallToActionAshOfGods02'
+const BG_SECTION = 'none'
+const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/8279e45b-199b-4ae5-b449-ae3aac2170b0.jpg'
+const DESCRIPTION = 'Block with texts & call to action a button'
 
 const COMPONENTS = [
+  {
+    name: 'TextElement',
+    element: types.Text,
+    type: 'text',
+    class: 'b-text',
+    label: 'text'
+  },
   {
     name: 'TextElement',
     element: types.Text,
@@ -36,20 +43,41 @@ const C_CUSTOM = [
         'font-size': '3.6rem',
         'color': '#ECD19A',
         'padding-top': '0',
-        'padding-bottom': '50px'
+        'padding-bottom': '40px'
       },
       media: {
         'is-mobile': {
           'font-size': '3.2rem',
           'padding-top': '0',
-          'padding-bottom': '50px'
+          'padding-bottom': '40px'
         }
       }
     }
   },
   {
     element: {
-      text: 'BUY NOW',
+      text: '<p>“The dialogue choices you make, journey paths you take ' +
+        'and battles you fight truly affect the story and the world around you.”</p>',
+      styles: {
+        'font-size': '1.8rem',
+        'line-height': '1.3',
+        'color': '#ECD19A',
+        'text-align': 'center',
+        'padding-bottom': '40px'
+      },
+      media: {
+        'is-mobile': {
+          'font-size': '1.4rem',
+          'padding-left': '40px',
+          'padding-right': '40px',
+          'padding-bottom': '40px'
+        }
+      }
+    }
+  },
+  {
+    element: {
+      text: 'Become legendary',
       styles: {
         'background-color': '#B93A27',
         'color': '#ECD19A',
@@ -97,7 +125,7 @@ const SCHEMA_CUSTOM = {
     }
   },
   container: {
-    width: 12,
+    width: 8,
     styles: {
       'padding-top': '8px',
       'padding-bottom': '8px'

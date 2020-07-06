@@ -5,73 +5,37 @@ import Seeder from '@editor/seeder'
 import defaults from '../../mixins/defaults'
 import sectionMedia from '../../mixins/sectionMedia'
 
-const GROUP_NAME = 'Elements'
-const NAME = 'CallToActionAshOfGods01'
-const BG_SECTION = 'url(https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/716d75d7-dbfc-432c-a6a9-88bf6a8a60a3.png)'
-const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/db78f0b9-0736-402d-8035-ac6f43d3a8b6.jpg'
-const DESCRIPTION = 'Block with call to action a button'
+const GROUP_NAME = 'Footer'
+const NAME = 'FooterAshOfGods02'
+const BG_SECTION = 'none'
+const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/6588bdc0-3bb9-4201-b08a-c4e096ba309d.jpg'
+const DESCRIPTION = 'Simple footer with copyright'
 
 const COMPONENTS = [
   {
     name: 'TextElement',
     element: types.Text,
     type: 'text',
-    class: 'b-text',
-    label: 'text'
-  },
-  {
-    name: 'Button',
-    element: types.Button,
-    type: 'button',
-    class: 'b-button',
-    label: 'button'
+    class: 'b-footer-copyright',
+    label: 'description'
   }
 ]
 
 const C_CUSTOM = [
   {
     element: {
-      text: '<h3>Become legendary</h3>',
+      text: `<span>Term & policy, Copyright © ${new Date().getFullYear()}</span>`,
       styles: {
-        'font-size': '3.6rem',
-        'color': '#ECD19A',
-        'padding-top': '0',
-        'padding-bottom': '50px'
+        'font-size': '1.8rem',
+        'color': '#C4AE78',
+        'padding-top': '13px',
+        'padding-right': '32px',
+        'padding-left': '32px'
       },
       media: {
         'is-mobile': {
-          'font-size': '3.2rem',
-          'padding-top': '0',
-          'padding-bottom': '50px'
-        }
-      }
-    }
-  },
-  {
-    element: {
-      text: 'BUY NOW',
-      styles: {
-        'background-color': '#B93A27',
-        'color': '#ECD19A',
-        'font-size': '2.4rem',
-        'text-align': 'center',
-        'width': '228px',
-        'height': '62px',
-        'border-width': '1px',
-        'border-style': 'solid',
-        'border-color': '#ECD19A'
-      },
-      media: {
-        'is-mobile': {
-          'font-size': '1.8rem',
-          'width': '191px',
-          'height': '46px'
-        }
-      },
-      pseudo: {
-        hover: {
-          'color': '#fff !important',
-          'background-color': 'rgba(0,0,0,0)'
+          'font-size': '1.2rem',
+          'text-align': 'center'
         }
       }
     }
@@ -82,29 +46,23 @@ const SCHEMA_CUSTOM = {
   mainStyle: {
     styles: {
       'background-image': BG_SECTION,
-      'background-size': 'cover',
-      'background-position': '100% 50%',
-      'height': '360px'
-    },
-    media: {
-      'is-mobile': {
-        'background-position': '80% 50%'
-      }
-    },
-    overlay: {
-      color: '#000000',
-      opacity: '0.5'
+      'padding-top': '8px',
+      'padding-bottom': '8px',
+      'height': '170px'
     }
   },
   container: {
-    width: 12,
+    width: 10,
     styles: {
       'padding-top': '8px',
-      'padding-bottom': '8px'
+      'padding-bottom': '8px',
+      'flex-direction': 'row'
     },
     media: {
       'is-mobile': {
-        'padding-top': '40px',
+        'flex-direction': 'column',
+        'align-items': 'center',
+        'padding-top': '50px',
         'padding-bottom': '50px'
       }
     }
@@ -139,8 +97,8 @@ export default {
 </script>
 
 <template>
-  <section
-    class="b-call-to-action"
+  <footer
+    class="b-section-footer"
     :class="$sectionData.mainStyle.classes"
     :style="[$sectionData.mainStyle.styles, $sectionData.objVarsMedia]"
     v-styler:section="$sectionData.mainStyle"
@@ -148,7 +106,7 @@ export default {
     <slot name="menu"/>
     <slot name="video"/>
     <slot name="overlay"/>
-    <div>
+    <div class="b-footer">
       <div class="b-grid">
         <div class="b-grid__row b-footer__row">
           <div class="b-grid__col-m-12" :class="`b-grid__col-${$sectionData.container.width}`">
@@ -178,7 +136,7 @@ export default {
         </div><!--/.b-grid__row.b-footer__row-->
       </div><!--/.b-grid-->
     </div><!--/.b-footer-->
-  </section>
+  </footer>
 </template>
 
 <style lang="sass" scoped>

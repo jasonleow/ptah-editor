@@ -5,74 +5,86 @@ import Seeder from '@editor/seeder'
 import defaults from '../../mixins/defaults'
 import sectionMedia from '../../mixins/sectionMedia'
 
-const GROUP_NAME = 'Elements'
-const NAME = 'CallToActionAshOfGods01'
-const BG_SECTION = 'url(https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/716d75d7-dbfc-432c-a6a9-88bf6a8a60a3.png)'
-const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/db78f0b9-0736-402d-8035-ac6f43d3a8b6.jpg'
-const DESCRIPTION = 'Block with call to action a button'
+const GROUP_NAME = 'Footer'
+const NAME = 'FooterAshOfGods04'
+const BG_SECTION = 'url(https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/56afb95c-f795-44b9-ae5e-db32f3f8c535.jpg)'
+const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/aa7eac6e-da26-407a-a778-bb52011ebac6.jpg'
+const DESCRIPTION = 'Lined up lower block with set of elements'
 
 const COMPONENTS = [
   {
     name: 'TextElement',
     element: types.Text,
     type: 'text',
-    class: 'b-text',
-    label: 'text'
+    class: 'b-footer-copyright',
+    label: 'description'
   },
   {
-    name: 'Button',
-    element: types.Button,
-    type: 'button',
-    class: 'b-button',
-    label: 'button'
+    name: 'SocialNetworks',
+    element: types.SocialNetworks,
+    type: 'networks',
+    class: 'b-social-networks',
+    label: 'Social Networks'
   }
 ]
 
 const C_CUSTOM = [
   {
     element: {
-      text: '<h3>Become legendary</h3>',
+      text: `<strong>Term & policy, Copyright © ${new Date().getFullYear()}</strong>`,
       styles: {
-        'font-size': '3.6rem',
-        'color': '#ECD19A',
-        'padding-top': '0',
-        'padding-bottom': '50px'
+        'font-size': '1.8rem',
+        'color': '#090705',
+        'padding-top': '13px',
+        'padding-right': '32px',
+        'padding-left': '32px'
       },
       media: {
         'is-mobile': {
-          'font-size': '3.2rem',
-          'padding-top': '0',
-          'padding-bottom': '50px'
+          'font-size': '1.2rem',
+          'text-align': 'center'
         }
       }
     }
   },
   {
     element: {
-      text: 'BUY NOW',
-      styles: {
-        'background-color': '#B93A27',
-        'color': '#ECD19A',
-        'font-size': '2.4rem',
-        'text-align': 'center',
-        'width': '228px',
-        'height': '62px',
-        'border-width': '1px',
-        'border-style': 'solid',
-        'border-color': '#ECD19A'
+      socialNetworks: {
+        'facebook': {
+          name: 'Facebook',
+          expand: false,
+          visible: true,
+          url: ''
+        },
+        'instagram': {
+          name: 'Instagram',
+          expand: false,
+          visible: true,
+          url: ''
+        },
+        'twitter': {
+          name: 'Twitter',
+          expand: false,
+          visible: true,
+          url: ''
+        },
+        'youtube': {
+          name: 'Youtube',
+          expand: false,
+          visible: true,
+          url: ''
+        }
       },
       media: {
         'is-mobile': {
-          'font-size': '1.8rem',
-          'width': '191px',
-          'height': '46px'
+          'margin-top': '70px'
         }
       },
-      pseudo: {
-        hover: {
-          'color': '#fff !important',
-          'background-color': 'rgba(0,0,0,0)'
-        }
+      colorFill: {
+        color: '#090705'
+      },
+      sizeIcons: {
+        width: 30
       }
     }
   }
@@ -82,29 +94,28 @@ const SCHEMA_CUSTOM = {
   mainStyle: {
     styles: {
       'background-image': BG_SECTION,
-      'background-size': 'cover',
-      'background-position': '100% 50%',
-      'height': '360px'
-    },
-    media: {
-      'is-mobile': {
-        'background-position': '80% 50%'
-      }
+      'padding-top': '8px',
+      'padding-bottom': '8px',
+      'height': '120px'
     },
     overlay: {
       color: '#000000',
-      opacity: '0.5'
+      opacity: '0.1'
     }
   },
   container: {
-    width: 12,
+    width: 10,
     styles: {
       'padding-top': '8px',
-      'padding-bottom': '8px'
+      'padding-bottom': '8px',
+      'flex-direction': 'row',
+      'justify-content': 'space-between'
     },
     media: {
       'is-mobile': {
-        'padding-top': '40px',
+        'flex-direction': 'column',
+        'align-items': 'center',
+        'padding-top': '50px',
         'padding-bottom': '50px'
       }
     }
@@ -139,8 +150,8 @@ export default {
 </script>
 
 <template>
-  <section
-    class="b-call-to-action"
+  <footer
+    class="b-section-footer"
     :class="$sectionData.mainStyle.classes"
     :style="[$sectionData.mainStyle.styles, $sectionData.objVarsMedia]"
     v-styler:section="$sectionData.mainStyle"
@@ -148,7 +159,7 @@ export default {
     <slot name="menu"/>
     <slot name="video"/>
     <slot name="overlay"/>
-    <div>
+    <div class="b-footer">
       <div class="b-grid">
         <div class="b-grid__row b-footer__row">
           <div class="b-grid__col-m-12" :class="`b-grid__col-${$sectionData.container.width}`">
@@ -178,7 +189,7 @@ export default {
         </div><!--/.b-grid__row.b-footer__row-->
       </div><!--/.b-grid-->
     </div><!--/.b-footer-->
-  </section>
+  </footer>
 </template>
 
 <style lang="sass" scoped>

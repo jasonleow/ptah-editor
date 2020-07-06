@@ -46,7 +46,7 @@ let [
     },
     {
       element: {
-        text: '<h1>TURN-BASED RPG FEATURING ROGUE-LIKE STORYTELLING</h1>',
+        text: '<h1>TURN-BASED RPG FEATURING</h1> <h1>ROGUE-LIKE STORYTELLING</h1>',
         styles: {
           'font-size': '4.2rem',
           'line-height': '1.3',
