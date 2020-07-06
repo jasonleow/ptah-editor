@@ -82,6 +82,13 @@ import ProductsExtendFantasy from '@components/sections/products/ProductsExtendF
 import FeaturesAshOfGods01 from '@components/sections/columns/FeaturesAshOfGods01'
 import FeaturesAshOfGods02 from '@components/sections/columns/FeaturesAshOfGods02'
 import FeaturesAshOfGods03 from '@components/sections/columns/FeaturesAshOfGods03'
+import FeaturesAshOfGods04 from '@components/sections/columns/FeaturesAshOfGods04'
+import FeaturesAshOfGods05 from '@components/sections/columns/FeaturesAshOfGods05'
+import FeaturesAshOfGods06 from '@components/sections/columns/FeaturesAshOfGods06'
+import FeaturesAshOfGods07 from '@components/sections/columns/FeaturesAshOfGods07'
+import FeaturesAshOfGods08 from '@components/sections/columns/FeaturesAshOfGods08'
+import AwardsAshOfGods01 from '@components/sections/columns/AwardsAshOfGods01'
+import AwardsAshOfGods02 from '@components/sections/columns/AwardsAshOfGods02'
 
 import Columns from '@components/sections/columns/Columns'
 import ColumnsFantasy from '@components/sections/columns/ColumnsFantasy'
@@ -90,6 +97,7 @@ import ColumnsWestern from '@components/sections/columns/ColumnsWestern'
 import CarouselAshOfGods01 from '@components/sections/carousel/CarouselAshOfGods01'
 import Carousel from '@components/sections/carousel/Carousel'
 // --- forms
+import CallToActionAndTextAshOfGods01 from '@components/sections/forms/CallToActionAndTextAshOfGods01'
 import FormCenter from '@components/sections/forms/FormCenter'
 import FormCenterFantasy from '@components/sections/forms/FormCenterFantasy'
 import FormRight from '@components/sections/forms/FormRightSide'
@@ -113,6 +121,11 @@ import FrequentlyAskedQuestionsWestern from '@components/sections/elements/Frequ
 import Slider from '@components/sections/slider/Slider'
 import SliderFantasy from '@components/sections/slider/SliderFantasy'
 import SliderWestern from '@components/sections/slider/SliderWestern'
+import SliderAshOfGods01 from '@components/sections/slider/SliderAshOfGods01'
+import SliderAshOfGods02 from '@components/sections/slider/SliderAshOfGods02'
+import SliderAshOfGods03 from '@components/sections/slider/SliderAshOfGods03'
+
+import ElementsAshOfGods01 from '@components/sections/elements/ElementsAshOfGods01'
 
 import store from '@store'
 
@@ -170,10 +183,20 @@ const COMPONENTS = {
   Slider,
   SliderFantasy,
   SliderWestern,
+  SliderAshOfGods01,
+  SliderAshOfGods02,
+  SliderAshOfGods03,
 
   FeaturesAshOfGods01,
   FeaturesAshOfGods02,
   FeaturesAshOfGods03,
+  FeaturesAshOfGods04,
+  FeaturesAshOfGods05,
+  FeaturesAshOfGods06,
+  FeaturesAshOfGods07,
+  FeaturesAshOfGods08,
+  AwardsAshOfGods01,
+  AwardsAshOfGods02,
   Columns,
   ColumnsFantasy,
   ColumnsWestern,
@@ -191,12 +214,14 @@ const COMPONENTS = {
   ProductsFantasy,
   ProductsExtendFantasy,
 
+  CallToActionAndTextAshOfGods01,
   FormCenter,
   FormCenterFantasy,
   FormRight,
   FormLeft,
   FormRight2,
   FormLeft2,
+  ElementsAshOfGods01,
 
   CallToActionAshOfGods01,
   SystemRequirements,
