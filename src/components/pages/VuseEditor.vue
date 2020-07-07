@@ -74,6 +74,8 @@ import GalleryPopup from '@components/sections/galleries/GalleryPopup'
 import GalleryPopupFantasy from '@components/sections/galleries/GalleryPopupFantasy'
 import GalleryPopupWestern from '@components/sections/galleries/GalleryPopupWestern'
 // --- products
+import ProductsAshOfGods01 from '@components/sections/products/ProductsAshOfGods01'
+import ProductsAshOfGods02 from '@components/sections/products/ProductsAshOfGods02'
 import Products from '@components/sections/products/Products'
 import ProductsFantasy from '@components/sections/products/ProductsFantasy'
 import ProductsExtend from '@components/sections/products/ProductsExtend'
@@ -131,6 +133,9 @@ import SliderAshOfGods03 from '@components/sections/slider/SliderAshOfGods03'
 
 import ElementsAshOfGods01 from '@components/sections/elements/ElementsAshOfGods01'
 import TextWithButtonTwoColumns01 from '@components/sections/elements/TextWithButtonTwoColumns01'
+import BlockTextsWithVideo01 from '@components/sections/elements/BlockTextsWithVideo01'
+import BlockWithVideo01 from '@components/sections/elements/BlockWithVideo01'
+import VideoAndCallToAction01 from '@components/sections/elements/VideoAndCallToAction01'
 
 import store from '@store'
 
@@ -214,6 +219,8 @@ const COMPONENTS = {
   GallerySwitchFantasy,
   GalleryPopupWestern,
 
+  ProductsAshOfGods01,
+  ProductsAshOfGods02,
   Products,
   ProductsExtend,
   ProductsFantasy,
@@ -228,6 +235,9 @@ const COMPONENTS = {
   FormLeft2,
   ElementsAshOfGods01,
   TextWithButtonTwoColumns01,
+  BlockTextsWithVideo01,
+  BlockWithVideo01,
+  VideoAndCallToAction01,
 
   CallToActionAshOfGods01,
   CallToActionAshOfGods02,
