@@ -184,7 +184,7 @@ const C_CUSTOM = [{
     media: {
       'is-mobile': {
         'font-size': '3.2rem',
-        'padding-top': '20px',
+        'padding-top': '50px',
         'padding-bottom': '50px'
       }
     }

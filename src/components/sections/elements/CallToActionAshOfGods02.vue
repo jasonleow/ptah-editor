@@ -112,11 +112,15 @@ const SCHEMA_CUSTOM = {
       'background-image': BG_SECTION,
       'background-size': 'cover',
       'background-position': '100% 50%',
-      'height': '360px'
+      'height': 'auto',
+      'padding-top': '80px',
+      'padding-bottom': '80px'
     },
     media: {
       'is-mobile': {
-        'background-position': '80% 50%'
+        'background-position': '80% 50%',
+        'padding-top': '20px',
+        'padding-bottom': '60px'
       }
     },
     overlay: {

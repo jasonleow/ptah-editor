@@ -1,13 +1,15 @@
 <template>
   <div class="b-project-preview">
     <div class="b-project-preview__content">
-      <div class="b-project-preview__template" :style="{'background-image': `url(${preset.preview})`}">
-
+      <div class="b-project-preview__template">
+        <base-scroll-container>
+          <img :src="preset.preview" style="width: 100%" />
+        </base-scroll-container>
       </div>
       <div class="b-project-preview__description">
         <h1>
           {{preset.type}}
-          <div class="b-project-preview__close" @click="close">
+          <div class="b-project-preview__close b-panel__close" @click="close">
             <icon-base name="close" width="14" height="14"></icon-base>
           </div>
         </h1>
@@ -90,12 +92,6 @@ export default {
     right: 0
     top: -8.8rem
     cursor: pointer
-
-    svg
-      fill: #A2A5A5
-
-    &:hover svg
-      fill: $dark-grey
 
   &__description
     width: 33.5rem

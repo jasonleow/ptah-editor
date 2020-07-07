@@ -6,7 +6,7 @@ import defaults from '../../mixins/defaults'
 import sectionMedia from '../../mixins/sectionMedia'
 
 const GROUP_NAME = 'Columns'
-const NAME = 'AwardsAshOfGods01'
+const NAME = 'AwardsAshOfGods02'
 const BG_SECTION = 'url(https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/fe6d8124-8ad5-46be-b12d-9b069d5ef597.jpg)'
 const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/2a7a9162-bb3e-4c1c-bc83-57442744c949.jpg'
 const DESCRIPTION = 'Three awards'

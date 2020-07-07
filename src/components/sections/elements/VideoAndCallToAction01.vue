@@ -142,8 +142,8 @@ const SCHEMA_CUSTOM = {
     styles: {
       'background-image': BG_SECTION,
       'height': 'auto',
-      'padding-top': '40px',
-      'padding-bottom': '40px',
+      'padding-top': '80px',
+      'padding-bottom': '80px',
       'padding-left': '32px',
       'padding-right': '32px'
     },
