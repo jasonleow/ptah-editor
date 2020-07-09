@@ -326,9 +326,7 @@ export default {
     this.updateBuilderSections(this.sections)
     this.updateBuilderGroups(this.groups)
 
-    if (localStorage.getItem('guest') === null) {
-      this.getUser()
-    }
+    this.getUser()
   },
 
   mounted () {
@@ -518,11 +516,7 @@ export default {
     },
     backToLandings () {
       this.save()
-      if (localStorage.getItem('guest') === null) {
-        this.$router.push({ path: `/dashboard` })
-      } else {
-        this.$router.push({ path: `/` })
-      }
+      this.$router.push({ path: `/dashboard` })
     },
     styleArtboard (styles) {
       Object.keys(styles).forEach((styleName) => {
@@ -689,7 +683,7 @@ export default {
       }
 
       if (event.code === 'KeyZ' && event.ctrlKey) {
-        this.undoFlag(false)
+        /* this.undoFlag(false)
         this.loading = true
         let frame = document.getElementById('artboard')
         let stateNumber = this.currentStateNumber > 0 ? this.currentStateNumber - 1 : 0
@@ -705,7 +699,7 @@ export default {
           })
         }, 0)
 
-        frame.normalize()
+        frame.normalize() */
       }
     },
 
