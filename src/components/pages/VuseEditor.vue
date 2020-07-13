@@ -90,6 +90,9 @@ import ProductsAshOfGods02 from '@components/sections/products/ProductsAshOfGods
 // --- columns
 import ColumnsSky01 from '@components/sections/columns/ColumnsSky01'
 import ColumnsSky02 from '@components/sections/columns/ColumnsSky02'
+import ColumnsSky03 from '@components/sections/columns/ColumnsSky03'
+import FeaturesSky01 from '@components/sections/columns/FeaturesSky01'
+import FeaturesSky02 from '@components/sections/columns/FeaturesSky02'
 import FeaturesAshOfGods01 from '@components/sections/columns/FeaturesAshOfGods01'
 import FeaturesAshOfGods02 from '@components/sections/columns/FeaturesAshOfGods02'
 import FeaturesAshOfGods03 from '@components/sections/columns/FeaturesAshOfGods03'
@@ -120,16 +123,23 @@ import FirstScreenAshOfGods06 from '@components/sections/first-screen/FirstScree
 // import FormLeft2 from '@components/sections/forms/FormLeftSideVariant2'
 
 // --- footers
+import FooterSky01 from '@components/sections/footers/FooterSky01'
+import FooterSky02 from '@components/sections/footers/FooterSky02'
 import FooterAshOfGods01 from '@components/sections/footers/FooterAshOfGods01'
 import FooterAshOfGods02 from '@components/sections/footers/FooterAshOfGods02'
 import FooterAshOfGods03 from '@components/sections/footers/FooterAshOfGods03'
 import FooterAshOfGods04 from '@components/sections/footers/FooterAshOfGods04'
-import FooterSky01 from '@components/sections/footers/FooterSky01'
 
 // --- elements
 import CallToActionAshOfGods01 from '@components/sections/elements/CallToActionAshOfGods01'
 import CallToActionAshOfGods02 from '@components/sections/elements/CallToActionAshOfGods02'
 import CallToActionSky01 from '@components/sections/elements/CallToActionSky01'
+import CallToActionSky02 from '@components/sections/elements/CallToActionSky02'
+import BlockWithVideo02 from '@components/sections/elements/BlockWithVideo02'
+import BlockWithVideo03 from '@components/sections/elements/BlockWithVideo03'
+import BlockWithVideo04 from '@components/sections/elements/BlockWithVideo04'
+import BlockTextsWithVideo02 from '@components/sections/elements/BlockTextsWithVideo02'
+import BlockTextsWithVideo03 from '@components/sections/elements/BlockTextsWithVideo03'
 
 import BlockText01 from '@components/sections/elements/BlockText01'
 import BlockWithImage01 from '@components/sections/elements/BlockWithImage01'
@@ -138,7 +148,6 @@ import TextWithButtonTwoColumns01 from '@components/sections/elements/TextWithBu
 import TextWithButtonTwoColumns02 from '@components/sections/elements/TextWithButtonTwoColumns02'
 import BlockTextsWithVideo01 from '@components/sections/elements/BlockTextsWithVideo01'
 import BlockWithVideo01 from '@components/sections/elements/BlockWithVideo01'
-import BlockWithVideo02 from '@components/sections/elements/BlockWithVideo02'
 import VideoAndCallToAction01 from '@components/sections/elements/VideoAndCallToAction01'
 
 // import SystemRequirements from '@components/sections/elements/SystemRequirements'
@@ -227,6 +236,9 @@ const COMPONENTS = {
 
   ColumnsSky01,
   ColumnsSky02,
+  ColumnsSky03,
+  FeaturesSky01,
+  FeaturesSky02,
   FeaturesAshOfGods01,
   FeaturesAshOfGods02,
   FeaturesAshOfGods03,
@@ -267,9 +279,14 @@ const COMPONENTS = {
   // FormLeft2,
   BlockText01,
   CallToActionSky01,
-  BlockWithVideo02,
+  CallToActionSky02,
   BlockWithImage01,
   TextWithButtonTwoColumns02,
+  BlockWithVideo02,
+  BlockWithVideo03,
+  BlockWithVideo04,
+  BlockTextsWithVideo02,
+  BlockTextsWithVideo03,
 
   ElementsAshOfGods01,
   TextWithButtonTwoColumns01,
@@ -285,11 +302,12 @@ const COMPONENTS = {
   // FrequentlyAskedQuestions,
   // FrequentlyAskedQuestionsWestern,
 
+  FooterSky01,
+  FooterSky02,
   FooterAshOfGods01,
   FooterAshOfGods02,
   FooterAshOfGods03,
-  FooterAshOfGods04,
-  FooterSky01
+  FooterAshOfGods04
   // FooterSpace,
   // FooterFantasy,
   // FooterWestern

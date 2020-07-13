@@ -29,13 +29,6 @@ export default {
       deep: true
     },
 
-    '$sectionData.mainStyle.applyPageStyle': {
-      handler () {
-        this.change()
-      },
-      deep: true
-    },
-
     '$store.state.currentLanding.settings.logo': {
       handler (value) {
         if (value.length) {
@@ -115,29 +108,17 @@ export default {
     },
 
     changeLogos (url) {
-      if (!this.applyPageStyle) {
-        return
-      }
-
       let paths = this.getElementPropertyPath('Logo', 'background-image')
       paths.forEach(path => this.$section.set(path, `url(${url})`))
     },
 
     changeVideo (url) {
-      if (!this.$sectionData.mainStyle.applyPageStyle) {
-        return
-      }
-
       let paths = this.getElementPropertyPath('VideoElement', 'settings.url', true)
 
       paths.forEach(path => this.$section.set(path, url))
     },
 
     changeColors () {
-      if (!this.$sectionData.mainStyle.applyPageStyle) {
-        return
-      }
-
       // Text color
       let plainTextColor = this.$store.state.currentLanding.settings.colors.text
       if (plainTextColor !== '') {
@@ -196,10 +177,6 @@ export default {
     },
 
     cleanSectionBgColor () {
-      if (!this.$sectionData.mainStyle.applyPageStyle) {
-        return
-      }
-
       this.$sectionData.mainStyle.styles['background-color'] = 'rgba(0,0,0,0)'
     }
   }

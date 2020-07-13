@@ -198,7 +198,7 @@ const data = new Map([
         }
       },
       parallax: false,
-      applyPageStyle: false
+      applyPageStyle: true
     })
   )],
   [types.Button, () => (_.merge({}, DEFAULT_OPTIONS,

@@ -8,7 +8,7 @@ import sectionMedia from '../../mixins/sectionMedia'
 const GROUP_NAME = 'Elements'
 const NAME = 'BlockWithVideo02'
 const BG_SECTION = 'none'
-const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/eb696755-a419-4993-89c5-33e92e5cd09d.jpg'
+const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/dfdde3ce-1e30-487e-9679-dba861356ea3.jpg'
 const DESCRIPTION = 'Block with image'
 
 const COMPONENTS_2 = [
@@ -114,11 +114,11 @@ const C_CUSTOM_3 = [
         autoplay: false,
         rel: false,
         controls: false,
-        url: 'https://youtu.be/9mPZqLIq00A'
+        url: 'https://youtu.be/Nq9RNp-Mt0o'
       },
       styles: {
         width: '800px',
-        height: '420px'
+        height: '446px'
       }
     }
   }
