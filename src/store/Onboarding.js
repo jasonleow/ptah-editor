@@ -10,7 +10,7 @@ const COLORS = {
   button: '',
   buttonText: '',
   buttonHover: '',
-  strong: ''
+  add1: ''
 }
 
 const FONTS = {

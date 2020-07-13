@@ -15,8 +15,6 @@ Vue.use(Vuex)
 Vue.use(vOutsideEvents)
 Vue.use(Vuebar)
 
-const demoLanding = 'https://s3.protocol.one/files/demoLanding080520_v1.json'
-
 const DEFAULT_CHECK_LIST = {
   logo: {
     status: false,
@@ -91,7 +89,7 @@ const COLORS = {
   button: '',
   buttonText: '',
   buttonHover: '',
-  strong: ''
+  add1: ''
 }
 
 const state = {
@@ -218,78 +216,6 @@ const actions = {
       })
       .catch((error) => {
         return Promise.reject(error)
-      })
-  },
-
-  /**
-   * Returns the demo landing page for the guest user
-   * @param dispatch
-   * @param slug
-   * @returns {Promise}
-   */
-  getLandingForUser ({ dispatch }, slug) {
-    return localStorage.getItem('guest') !== null
-      ? dispatch('fetchLandingFromFile', { slug, url: demoLanding })
-      : dispatch('getLandingData', slug)
-  },
-
-  /**
-   * Get landing from url
-   * @param commit
-   * @param slug
-   * @returns {Promise<Response>}
-   */
-  fetchLandingFromFile ({ state, commit }, { slug, url, name }) {
-    let nameLanding = name || state.name
-
-    return fetch(url)
-      .then((response) => {
-        return response.json()
-      })
-      .then((data) => {
-        data['slug'] = slug
-
-        if (nameLanding === '') {
-          nameLanding = data.name
-        }
-
-        commit('name', nameLanding)
-        data.settings['name'] = nameLanding
-
-        if (!data.settings.fonts) {
-          data.settings['fonts'] = state.Onboarding.fonts
-        }
-
-        if (!data.settings.logo) {
-          data.settings['logo'] = state.Onboarding.logo
-        }
-
-        if (!data.settings.videoElUrl) {
-          data.settings['videoElUrl'] = state.Onboarding.video
-        }
-
-        if (!data.settings.colors) {
-          data.settings['colors'] = _.merge(state.currentLanding.settings.colors, state.Onboarding.colors)
-        }
-
-        if (!data.settings.setupFonts) {
-          data.settings['setupFonts'] = state.Onboarding.setupFonts
-        }
-
-        if (!data.settings.checkList) {
-          data['checkList'] = DEFAULT_CHECK_LIST
-        }
-
-        if (!data.settings.styles.backgroundImage) {
-          data.settings['styles']['backgroundImage'] = state.Onboarding.background
-        }
-
-        commit('slug', slug)
-        commit('isSaved', false)
-        commit('version', 1)
-        commit('updateCurrentLanding', data)
-
-        return data
       })
   },
 

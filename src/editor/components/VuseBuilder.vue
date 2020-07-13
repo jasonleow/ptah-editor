@@ -128,14 +128,10 @@
 
         <!-- apply headers color -->
         <template v-if="currentLanding.settings.colors && currentLanding.settings.colors.headers !== ''">
-          ._applyPageStyle h1,
-          ._applyPageStyle h2,
-          ._applyPageStyle h3 {
+          h1,
+          h2,
+          h3 {
             color: {{currentLanding.settings.colors.headers}} !important;
-          }
-
-          ._applyPageStyle p > strong {
-            color: {{currentLanding.settings.colors.strong}} !important;
           }
         </template>
       </v-style>

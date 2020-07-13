@@ -28,7 +28,7 @@ export default [
       button: '#B93A27',
       buttonText: '#ECD19A',
       buttonHover: '#71675B',
-      strong: '#ffffff'
+      add1: '#ffffff'
     },
     backgroundImage: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/6b0b3b65-e3bf-49ef-8c8c-579fc7581181.jpg',
     backgroundColor: '#0F1617',
@@ -162,7 +162,7 @@ export default [
       button: '#B93A27',
       buttonText: '#ECD19A',
       buttonHover: '#71675B',
-      strong: '#ffffff'
+      add1: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -203,7 +203,7 @@ export default [
       button: '#B93A27',
       buttonText: '#ECD19A',
       buttonHover: '#71675B',
-      strong: '#fffffff'
+      add1: '#fffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -243,7 +243,7 @@ export default [
       button: '#B93A27',
       buttonText: '#ECD19A',
       buttonHover: '#71675B',
-      strong: '#ffffff'
+      add1: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -282,7 +282,7 @@ export default [
       button: '#B93A27',
       buttonText: '#ECD19A',
       buttonHover: '#71675B',
-      strong: '#ffffff'
+      add1: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -322,7 +322,7 @@ export default [
       button: '#B93A27',
       buttonText: '#ECD19A',
       buttonHover: '#71675B',
-      strong: '#ffffff'
+      add1: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -362,7 +362,7 @@ export default [
       button: '#B93A27',
       buttonText: '#ECD19A',
       buttonHover: '#71675B',
-      strong: '#ffffff'
+      add1: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -401,7 +401,7 @@ export default [
       button: '#B93A27',
       buttonText: '#ECD19A',
       buttonHover: '#71675B',
-      strong: '#ffffff'
+      add1: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -440,7 +440,7 @@ export default [
       button: '#B93A27',
       buttonText: '#ECD19A',
       buttonHover: '#71675B',
-      strong: '#ffffff'
+      add1: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -479,7 +479,7 @@ export default [
       button: '#B93A27',
       buttonText: '#ECD19A',
       buttonHover: '#71675B',
-      strong: '#000000'
+      add1: '#000000'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -519,7 +519,7 @@ export default [
       button: '#B93A27',
       buttonText: '#ECD19A',
       buttonHover: '#71675B',
-      strong: '#ECD19A'
+      add1: '#ECD19A'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -558,7 +558,7 @@ export default [
       button: '#B93A27',
       buttonText: '#ECD19A',
       buttonHover: '#71675B',
-      strong: '#ffffff'
+      add1: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -596,7 +596,7 @@ export default [
       button: '#F04B4C',
       buttonText: '#ffffff',
       buttonHover: '#5E42AE',
-      strong: '#ffffff'
+      add1: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#ffffff',
@@ -635,7 +635,7 @@ export default [
       button: '#F04B4C',
       buttonText: '#ffffff',
       buttonHover: '#5E42AE',
-      strong: '#ffffff'
+      add1: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#ffffff',
@@ -676,7 +676,7 @@ export default [
       button: '#F04B4C',
       buttonText: '#ffffff',
       buttonHover: '#5E42AE',
-      strong: '#ffffff'
+      add1: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#ffffff',
@@ -717,7 +717,7 @@ export default [
       button: '#F04B4C',
       buttonText: '#ffffff',
       buttonHover: '#5E42AE',
-      strong: '#ffffff'
+      add1: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#ffffff',
@@ -757,7 +757,7 @@ export default [
       button: '#F04B4C',
       buttonText: '#ffffff',
       buttonHover: '#5E42AE',
-      strong: '#ffffff'
+      add1: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#ffffff',
@@ -797,7 +797,7 @@ export default [
       button: '#F04B4C',
       buttonText: '#ffffff',
       buttonHover: '#5E42AE',
-      strong: '#ffffff'
+      add1: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#ffffff',

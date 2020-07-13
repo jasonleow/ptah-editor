@@ -99,7 +99,7 @@ export default {
         button: 'Button background',
         buttonText: 'Button text',
         buttonHover: 'Button hover color',
-        strong: 'Text color bold'
+        add1: 'Additional color'
       }
     }
   },
