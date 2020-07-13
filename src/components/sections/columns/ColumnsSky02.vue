@@ -6,9 +6,9 @@ import defaults from '../../mixins/defaults'
 import sectionMedia from '../../mixins/sectionMedia'
 
 const GROUP_NAME = 'Columns'
-const NAME = 'ColumnsSky01'
+const NAME = 'ColumnsSky02'
 const BG_SECTION = 'none'
-const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/e27f0d40-5dae-420f-8b46-2ef969a9b525.jpg'
+const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/5be0f988-fb79-43ca-ac9a-d6280bf40c0d.jpg'
 const DESCRIPTION = 'Three columns with button'
 
 const C_CUSTOM_COLUMN = [
@@ -19,8 +19,8 @@ const C_CUSTOM_COLUMN = [
         'background-color': 'rgba(0, 0, 0, 0)',
         'background-repeat': 'no-repeat',
         'background-size': 'contain',
-        'width': '224px',
-        'height': '190px'
+        'width': '311px',
+        'height': '264px'
       },
       media: {
         'is-mobile': {
@@ -29,19 +29,10 @@ const C_CUSTOM_COLUMN = [
         }
       }
     }
-  }
-]
-
-const C_CUSTOM_COLUMN2 = cloneDeep(C_CUSTOM_COLUMN)
-C_CUSTOM_COLUMN2[0].element.styles['background-image'] = 'url("https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/6693bc33-4f7b-4055-9240-f1b4036275b1.png")'
-
-const C_CUSTOM_COLUMN3 = cloneDeep(C_CUSTOM_COLUMN)
-C_CUSTOM_COLUMN3[0].element.styles['background-image'] = 'url("https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/ff2a51e9-163f-4ec1-a993-df96bbcc1211.png")'
-
-const C_CUSTOM = [
+  },
   {
     element: {
-      text: '<h2>GAME DESCRIPTION</h2>',
+      text: '<h2>Rogue like storytelling</h2>',
       styles: {
         'font-size': '2.8rem',
         'color': '#5E42AE',
@@ -59,10 +50,9 @@ const C_CUSTOM = [
   },
   {
     element: {
-      text: '<p>The dialogue choices you make, journey paths you take and battles you fight truly ' +
-        'affect the story and the world around you. The team’s resources and time are limited. ' +
-        'The dialogue choices you make, journey paths you take and battles you fight truly affect ' +
-        'the story and the world around you. The team’s resources and time are limited.</p>',
+      text: '<p>The dialogue choices you make, journey paths you take and battles ' +
+        'you fight truly affect the story and the world around you. ' +
+        'The team’s resources and time are limited.</p>',
       styles: {
         'font-size': '1.8rem',
         'color': '#5E42AE',
@@ -79,6 +69,22 @@ const C_CUSTOM = [
     }
   }
 ]
+
+const C_CUSTOM_COLUMN2 = cloneDeep(C_CUSTOM_COLUMN)
+C_CUSTOM_COLUMN2[0].element.styles['background-image'] = 'url("https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/6693bc33-4f7b-4055-9240-f1b4036275b1.png")'
+C_CUSTOM_COLUMN2[1].element.text = '<h2>PVE multiplayer modes</h2>'
+C_CUSTOM_COLUMN2[2].element.text = '<p>Live through the story and top the global ' +
+  'ratings with your characters in the multiplayer mode. Unlock new characters ' +
+  'and cards, upgrade them to build your own unique strategy and tactics.</p>'
+
+const C_CUSTOM_COLUMN3 = cloneDeep(C_CUSTOM_COLUMN)
+C_CUSTOM_COLUMN3[0].element.styles['background-image'] = 'url("https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/ff2a51e9-163f-4ec1-a993-df96bbcc1211.png")'
+C_CUSTOM_COLUMN3[1].element.text = '<h2>Hand-drawn graphics</h2>'
+C_CUSTOM_COLUMN3[2].element.text = '<p>The visual style of Ash of Gods has been ' +
+  'inspired by the work of Ralph Bakshi, old-school Disney cartoons and the Soviet ' +
+  'animation studio “Soyuzmultfilm” of the 60s.</p>'
+
+const C_CUSTOM = []
 
 const C_CUSTOM_1 = [
   {
@@ -116,12 +122,12 @@ const C_CUSTOM_CONTAINER = {
   styles: {
     'flex-direction': 'column',
     'align-items': 'center',
-    'padding-left': '20px',
-    'padding-right': '20px'
+    'padding-left': '40px',
+    'padding-right': '40px'
   },
   media: {
     'is-mobile': {
-      'padding-top': '40px'
+      'padding-top': '0'
     }
   }
 }
@@ -130,12 +136,12 @@ const C_CUSTOM_CONTAINER_1 = {
   styles: {
     'flex-direction': 'column',
     'align-items': 'center',
-    'padding-top': '60px',
+    'padding-top': '0',
     'padding-bottom': '60px'
   },
   media: {
     'is-mobile': {
-      'padding-top': '40px',
+      'padding-top': '0',
       'padding-bottom': '60px'
     }
   }
@@ -153,7 +159,7 @@ const SCHEMA_CUSTOM = {
     },
     media: {
       'is-mobile': {
-        'padding-top': '20px',
+        'padding-top': '0',
         'padding-bottom': '60px',
         'padding-left': '10px',
         'padding-right': '10px'
@@ -176,22 +182,7 @@ const SCHEMA_CUSTOM = {
   edited: true
 }
 
-const HEADER = [
-  {
-    name: 'TextElement',
-    element: types.Text,
-    type: 'text',
-    class: 'b-text',
-    label: 'text'
-  },
-  {
-    name: 'TextElement',
-    element: types.Text,
-    type: 'text',
-    class: 'b-text',
-    label: 'text'
-  }
-]
+const HEADER = []
 
 const BOTTOM = [
   {
@@ -210,6 +201,20 @@ const COMPONENTS = [
     type: 'image',
     class: 'b-image',
     label: 'pic'
+  },
+  {
+    name: 'TextElement',
+    element: types.Text,
+    type: 'text',
+    class: 'b-text',
+    label: 'text'
+  },
+  {
+    name: 'TextElement',
+    element: types.Text,
+    type: 'text',
+    class: 'b-text',
+    label: 'text'
   }
 ]
 

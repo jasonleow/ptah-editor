@@ -63,7 +63,7 @@ const C_CUSTOM_1 = [
   },
   {
     element: {
-      text: '<strong>Something amazing is coming soon</strong>',
+      text: '<h3><strong>Something amazing is coming soon</strong></h3>',
       styles: {
         'font-size': '1.8rem',
         'line-height': '1.3',
@@ -85,7 +85,7 @@ const C_CUSTOM_1 = [
   },
   {
     element: {
-      text: '<h1>It’s time to take new gaming experience</h1>',
+      text: '<p><strong>It’s time to take new gaming experience</h1>',
       styles: {
         'font-size': '4.6rem',
         'line-height': '1.3',
@@ -113,8 +113,8 @@ const C_CUSTOM_1 = [
         'color': '#ffffff',
         'font-size': '2.4rem',
         'text-align': 'center',
-        'width': '226px',
-        'height': '66px',
+        'width': '214px',
+        'height': '54px',
         'border-radius': '50px',
         'border-width': '0',
         'margin-top': '50px'
@@ -143,7 +143,7 @@ const SCHEMA_CUSTOM = {
       'background-color': '#ffffff',
       'background-repeat': 'no-repeat',
       'background-attachment': 'scroll',
-      'background-position': '50% 100%',
+      'background-position': '50% 0',
       'background-size': 'cover',
       'height': '100vh',
       'padding-top': '20px',
@@ -153,7 +153,7 @@ const SCHEMA_CUSTOM = {
     },
     media: {
       'is-mobile': {
-        'background-position': '50% 100%',
+        'background-position': '50% 0',
         'padding-bottom': '150px'
       }
     },
@@ -164,7 +164,7 @@ const SCHEMA_CUSTOM = {
   },
   components1: merge({}, C_CUSTOM_1),
   container1: {
-    width: 8,
+    width: 6,
     styles: {
       'flex-direction': 'column',
       'justify-content': 'center',

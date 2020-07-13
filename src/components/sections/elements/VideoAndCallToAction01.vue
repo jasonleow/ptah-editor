@@ -66,7 +66,7 @@ const COMPONENTS_3 = [
 const C_CUSTOM_3 = [
   {
     element: {
-      text: '<h3>STORYTELLING</h3>',
+      text: '<h2>STORYTELLING</h2>',
       styles: {
         'font-size': '3.6rem',
         'color': '#ECD19A',

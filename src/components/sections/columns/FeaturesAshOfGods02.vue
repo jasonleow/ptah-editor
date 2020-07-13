@@ -281,11 +281,11 @@ const HEADER = [
 
 const COMPONENTS1 = [
   {
-    name: 'Pic',
-    element: types.Image,
+    name: 'Logo',
+    element: types.Logo,
     type: 'image',
-    class: 'b-image',
-    label: 'pic'
+    class: 'b-logo',
+    label: 'logo'
   },
   {
     name: 'TextElement',

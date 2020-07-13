@@ -77,7 +77,7 @@ const C_CUSTOM_1 = [
   },
   {
     element: {
-      text: '<h1>It’s time to take new gaming experience</h1>',
+      text: '<p><strong>It’s time to take new gaming experience<strong></p>',
       styles: {
         'font-size': '4.6rem',
         'line-height': '1.3',
@@ -99,7 +99,7 @@ const C_CUSTOM_1 = [
   },
   {
     element: {
-      text: '<strong>Something amazing is coming soon</strong>',
+      text: '<h3><strong>Something amazing is coming soon</strong></h3>',
       styles: {
         'font-size': '1.8rem',
         'line-height': '1.3',

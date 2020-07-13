@@ -27,8 +27,8 @@ export default [
       text: '#71675B',
       button: '#B93A27',
       buttonText: '#ECD19A',
-      add1: '#71675B',
-      add2: '#ffffff'
+      buttonHover: '#71675B',
+      strong: '#ffffff'
     },
     backgroundImage: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/6b0b3b65-e3bf-49ef-8c8c-579fc7581181.jpg',
     backgroundColor: '#0F1617',
@@ -160,8 +160,8 @@ export default [
       text: '#71675B',
       button: '#B93A27',
       buttonText: '#ECD19A',
-      add1: '#71675B',
-      add2: '#ffffff'
+      buttonHover: '#71675B',
+      strong: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -200,8 +200,8 @@ export default [
       text: '#71675B',
       button: '#B93A27',
       buttonText: '#ECD19A',
-      add1: '#71675B',
-      add2: '#fffffff'
+      buttonHover: '#71675B',
+      strong: '#fffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -239,8 +239,8 @@ export default [
       text: '#71675B',
       button: '#B93A27',
       buttonText: '#ECD19A',
-      add1: '#71675B',
-      add2: '#ffffff'
+      buttonHover: '#71675B',
+      strong: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -277,8 +277,8 @@ export default [
       text: '#71675B',
       button: '#B93A27',
       buttonText: '#ECD19A',
-      add1: '#71675B',
-      add2: '#ffffff'
+      buttonHover: '#71675B',
+      strong: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -316,8 +316,8 @@ export default [
       text: '#71675B',
       button: '#B93A27',
       buttonText: '#ECD19A',
-      add1: '#71675B',
-      add2: '#ffffff'
+      buttonHover: '#71675B',
+      strong: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -355,8 +355,8 @@ export default [
       text: '#71675B',
       button: '#B93A27',
       buttonText: '#ECD19A',
-      add1: '#71675B',
-      add2: '#ffffff'
+      buttonHover: '#71675B',
+      strong: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -393,8 +393,8 @@ export default [
       text: '#71675B',
       button: '#B93A27',
       buttonText: '#ECD19A',
-      add1: '#71675B',
-      add2: '#ffffff'
+      buttonHover: '#71675B',
+      strong: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -431,8 +431,8 @@ export default [
       text: '#71675B',
       button: '#B93A27',
       buttonText: '#ECD19A',
-      add1: '#71675B',
-      add2: '#ffffff'
+      buttonHover: '#71675B',
+      strong: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -469,8 +469,8 @@ export default [
       text: '#71675B',
       button: '#B93A27',
       buttonText: '#ECD19A',
-      add1: '#71675B',
-      add2: '#000000'
+      buttonHover: '#71675B',
+      strong: '#000000'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -508,8 +508,8 @@ export default [
       text: '#71675B',
       button: '#B93A27',
       buttonText: '#ECD19A',
-      add1: '#71675B',
-      add2: '#ECD19A'
+      buttonHover: '#71675B',
+      strong: '#ECD19A'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -546,8 +546,8 @@ export default [
       text: '#71675B',
       button: '#B93A27',
       buttonText: '#ECD19A',
-      add1: '#71675B',
-      add2: '#ffffff'
+      buttonHover: '#71675B',
+      strong: '#ffffff'
     },
     backgroundImage: '',
     backgroundColor: '#0F1617',
@@ -564,5 +564,44 @@ export default [
     },
     id: 18,
     preview: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/ba93af99-a79a-4301-8ba0-c5405a57a2c3.jpg'
+  },
+  {
+    type: 'Sky 01',
+    sections: [
+      'FirstScreenSky01',
+      'ColumnsSky01',
+      'BlockWithImage01',
+      'TextWithButtonTwoColumns02',
+      'FooterSky01'
+    ],
+    image: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/0a015e13-19c0-469a-ac76-9e36a51b0f9e.jpg',
+    description: 'Sell game keys',
+    categories: [1],
+    palette: ['#5E42AE', '#5E42AE', '#F04B4C', '#ffffff', '#5E42AE', '#ffffff'],
+    colors: {
+      headers: '#5E42AE',
+      text: '#5E42AE',
+      button: '#F04B4C',
+      buttonText: '#ffffff',
+      buttonHover: '#5E42AE',
+      strong: '#ffffff'
+    },
+    backgroundImage: '',
+    backgroundColor: '#ffffff',
+    fonts: {
+      'Roboto': {
+        variants: ['regular'],
+        subsets: ['latin']
+      }
+    },
+    setupFonts: {
+      'h1': 'Roboto',
+      'p': 'Roboto',
+      'btn': 'Roboto'
+    },
+    id: 20,
+    preview: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/0a015e13-19c0-469a-ac76-9e36a51b0f9e.jpg',
+    video: 'https://youtu.be/9mPZqLIq00A',
+    logo: '"https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/6276c239-7f3b-404d-b630-a14db18d91c9.png"'
   }
 ]

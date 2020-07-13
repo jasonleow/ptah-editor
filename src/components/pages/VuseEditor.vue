@@ -78,6 +78,8 @@ import FirstScreenSky02 from '@components/sections/first-screen/FirstScreenSky02
 // import GalleryPopupWestern from '@components/sections/galleries/GalleryPopupWestern'
 
 // --- products
+import ProductsSky01 from '@components/sections/products/ProductsSky01'
+import ProductsSky02 from '@components/sections/products/ProductsSky02'
 import ProductsAshOfGods01 from '@components/sections/products/ProductsAshOfGods01'
 import ProductsAshOfGods02 from '@components/sections/products/ProductsAshOfGods02'
 // import Products from '@components/sections/products/Products'
@@ -87,6 +89,7 @@ import ProductsAshOfGods02 from '@components/sections/products/ProductsAshOfGods
 
 // --- columns
 import ColumnsSky01 from '@components/sections/columns/ColumnsSky01'
+import ColumnsSky02 from '@components/sections/columns/ColumnsSky02'
 import FeaturesAshOfGods01 from '@components/sections/columns/FeaturesAshOfGods01'
 import FeaturesAshOfGods02 from '@components/sections/columns/FeaturesAshOfGods02'
 import FeaturesAshOfGods03 from '@components/sections/columns/FeaturesAshOfGods03'
@@ -126,13 +129,16 @@ import FooterSky01 from '@components/sections/footers/FooterSky01'
 // --- elements
 import CallToActionAshOfGods01 from '@components/sections/elements/CallToActionAshOfGods01'
 import CallToActionAshOfGods02 from '@components/sections/elements/CallToActionAshOfGods02'
+import CallToActionSky01 from '@components/sections/elements/CallToActionSky01'
 
+import BlockText01 from '@components/sections/elements/BlockText01'
 import BlockWithImage01 from '@components/sections/elements/BlockWithImage01'
 import ElementsAshOfGods01 from '@components/sections/elements/ElementsAshOfGods01'
 import TextWithButtonTwoColumns01 from '@components/sections/elements/TextWithButtonTwoColumns01'
 import TextWithButtonTwoColumns02 from '@components/sections/elements/TextWithButtonTwoColumns02'
 import BlockTextsWithVideo01 from '@components/sections/elements/BlockTextsWithVideo01'
 import BlockWithVideo01 from '@components/sections/elements/BlockWithVideo01'
+import BlockWithVideo02 from '@components/sections/elements/BlockWithVideo02'
 import VideoAndCallToAction01 from '@components/sections/elements/VideoAndCallToAction01'
 
 // import SystemRequirements from '@components/sections/elements/SystemRequirements'
@@ -220,6 +226,7 @@ const COMPONENTS = {
   SliderAshOfGods03,
 
   ColumnsSky01,
+  ColumnsSky02,
   FeaturesAshOfGods01,
   FeaturesAshOfGods02,
   FeaturesAshOfGods03,
@@ -242,6 +249,8 @@ const COMPONENTS = {
   // GallerySwitchFantasy,
   // GalleryPopupWestern,
 
+  ProductsSky01,
+  ProductsSky02,
   ProductsAshOfGods01,
   ProductsAshOfGods02,
   // Products,
@@ -256,10 +265,14 @@ const COMPONENTS = {
   // FormLeft,
   // FormRight2,
   // FormLeft2,
+  BlockText01,
+  CallToActionSky01,
+  BlockWithVideo02,
   BlockWithImage01,
+  TextWithButtonTwoColumns02,
+
   ElementsAshOfGods01,
   TextWithButtonTwoColumns01,
-  TextWithButtonTwoColumns02,
   BlockTextsWithVideo01,
   BlockWithVideo01,
   VideoAndCallToAction01,

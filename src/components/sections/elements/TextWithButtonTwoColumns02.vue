@@ -31,7 +31,7 @@ const COMPONENTS_2 = [
 const C_CUSTOM_2 = [
   {
     element: {
-      text: '<p><strong>Become legendary</strong></p>',
+      text: '<h2>Become legendary</h2>',
       styles: {
         'font-size': '3.6rem',
         'color': '#5E42AE',

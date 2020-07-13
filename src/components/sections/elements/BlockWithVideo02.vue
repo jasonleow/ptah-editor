@@ -6,9 +6,9 @@ import defaults from '../../mixins/defaults'
 import sectionMedia from '../../mixins/sectionMedia'
 
 const GROUP_NAME = 'Elements'
-const NAME = 'BlockWithImage01'
+const NAME = 'BlockWithVideo02'
 const BG_SECTION = 'none'
-const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/8156b0a4-41eb-4568-abe1-68ed94e78335.jpg'
+const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/eb696755-a419-4993-89c5-33e92e5cd09d.jpg'
 const DESCRIPTION = 'Block with image'
 
 const COMPONENTS_2 = [
@@ -98,30 +98,27 @@ const C_CUSTOM_2 = [
 
 const COMPONENTS_3 = [
   {
-    name: 'Pic',
-    element: types.Image,
-    type: 'image',
-    class: 'b-image',
-    label: 'pic'
+    name: 'VideoElement',
+    element: types.VideoElement,
+    type: 'video',
+    class: 'b-video',
+    label: 'video'
   }
 ]
 
 const C_CUSTOM_3 = [
   {
     element: {
-      styles: {
-        'background-image': 'url("https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/37ba65c2-61b0-4b0a-879c-8d8a0b9e0ae8.jpg")',
-        'background-color': 'rgba(0, 0, 0, 0)',
-        'background-repeat': 'no-repeat',
-        'background-size': 'contain',
-        'width': '640px',
-        'height': '640px'
+      settings: {
+        loop: false,
+        autoplay: false,
+        rel: false,
+        controls: false,
+        url: 'https://youtu.be/9mPZqLIq00A'
       },
-      media: {
-        'is-mobile': {
-          'width': '280px',
-          'height': '280px'
-        }
+      styles: {
+        width: '800px',
+        height: '420px'
       }
     }
   }
@@ -147,7 +144,7 @@ const SCHEMA_CUSTOM = {
   },
   components2: merge({}, C_CUSTOM_2),
   container2: {
-    width: 5,
+    width: 3,
     minWidth: 2,
     maxWidth: 10,
     grow: ['$sectionData.container3'],
@@ -168,7 +165,7 @@ const SCHEMA_CUSTOM = {
   },
   components3: merge({}, C_CUSTOM_3),
   container3: {
-    width: 7,
+    width: 9,
     minWidth: 2,
     maxWidth: 10,
     grow: ['$sectionData.container2'],

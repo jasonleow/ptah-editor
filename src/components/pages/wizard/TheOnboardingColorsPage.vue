@@ -98,8 +98,8 @@ export default {
         text: 'Plain text',
         button: 'Button background',
         buttonText: 'Button text',
-        add1: 'Button hover color',
-        add2: 'Additional color'
+        buttonHover: 'Button hover color',
+        strong: 'Text color bold'
       }
     }
   },
