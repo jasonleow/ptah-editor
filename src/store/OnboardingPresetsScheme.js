@@ -56,8 +56,8 @@ export default [
       'FooterPrimitive01'
     ],
     image: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/bd0dc562-a527-4426-9dc4-4f8daf19bcc6.jpg',
-    description: 'Sell game keys',
-    categories: [1],
+    description: 'Sell multiple editions',
+    categories: [2],
     palette: ['#848484', '#848484', '#A2A5A5', '#FFFFFF', '#575A5F', '#ffffff'],
     colors: {
       headers: '#848484',
@@ -94,7 +94,7 @@ export default [
       'FooterPrimitive02'
     ],
     image: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/b3e52349-a929-4359-acb0-981b34eabd05.jpg',
-    description: 'Sell game keys',
+    description: 'Setup pre-order',
     categories: [4],
     palette: ['#848484', '#848484', '#A2A5A5', '#FFFFFF', '#575A5F', '#ffffff'],
     colors: {
