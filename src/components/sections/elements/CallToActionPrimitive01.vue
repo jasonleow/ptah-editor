@@ -6,7 +6,7 @@ import defaults from '../../mixins/defaults'
 import sectionMedia from '../../mixins/sectionMedia'
 
 const GROUP_NAME = 'Elements'
-const NAME = 'CallToActionPrimitive02'
+const NAME = 'CallToActionPrimitive01'
 const BG_SECTION = 'none'
 const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/77b5fd32-4edd-4301-a609-16bed84a93ab.jpg'
 const DESCRIPTION = 'Block with texts & call to action a button'

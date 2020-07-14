@@ -6,7 +6,7 @@ import defaults from '../../mixins/defaults'
 import sectionMedia from '../../mixins/sectionMedia'
 
 const GROUP_NAME = 'Forms'
-const NAME = 'CallToActionPrimitive02'
+const NAME = 'FormPrimitive01'
 const BG_SECTION = 'none'
 const COVER = 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/6ae83d70-0c07-4f88-845f-c5052175e257.jpg'
 const DESCRIPTION = 'Block with subscribe form'

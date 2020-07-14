@@ -12,7 +12,10 @@ export default [
   {
     type: 'Primitive 01',
     sections: [
-      'FirstScreenPrimitive01'
+      'FirstScreenPrimitive01',
+      'DetailsPrimitive01',
+      'VideoAndCallToAction02',
+      'FooterPrimitive01'
     ],
     image: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/58a3353b-29b7-4af1-a73c-0973aed9ade0.jpg',
     description: 'Sell game keys',
@@ -41,6 +44,120 @@ export default [
     },
     id: 1,
     preview: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/58a3353b-29b7-4af1-a73c-0973aed9ade0.jpg',
+    logo: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/ccd3d56e-e50e-4d05-acac-a0de41413f34.png'
+  },
+  {
+    type: 'Primitive 02',
+    sections: [
+      'FirstScreenPrimitive02',
+      'DetailsPrimitive02',
+      'SliderPrimitive02',
+      'CallToActionPrimitive01',
+      'FooterPrimitive01'
+    ],
+    image: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/bd0dc562-a527-4426-9dc4-4f8daf19bcc6.jpg',
+    description: 'Sell game keys',
+    categories: [1],
+    palette: ['#848484', '#848484', '#A2A5A5', '#FFFFFF', '#575A5F', '#ffffff'],
+    colors: {
+      headers: '#848484',
+      text: '#848484',
+      button: '#A2A5A5',
+      buttonText: '#FFFFFF',
+      buttonHover: '#575A5F',
+      add1: '#ffffff'
+    },
+    backgroundImage: '',
+    backgroundColor: '#F3F6F6',
+    fonts: {
+      'Roboto': {
+        variants: ['regular'],
+        subsets: ['latin']
+      }
+    },
+    setupFonts: {
+      'h1': 'Roboto',
+      'p': 'Roboto',
+      'btn': 'Roboto'
+    },
+    id: 2,
+    preview: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/bd0dc562-a527-4426-9dc4-4f8daf19bcc6.jpg',
+    logo: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/ccd3d56e-e50e-4d05-acac-a0de41413f34.png'
+  },
+  {
+    type: 'Primitive 03',
+    sections: [
+      'SliderPrimitive01',
+      'BlockWithImagePrimitive01',
+      'PricesPrimitive01',
+      'FrequentlyAskedQuestionsPrimitive01',
+      'FooterPrimitive02'
+    ],
+    image: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/b3e52349-a929-4359-acb0-981b34eabd05.jpg',
+    description: 'Sell game keys',
+    categories: [4],
+    palette: ['#848484', '#848484', '#A2A5A5', '#FFFFFF', '#575A5F', '#ffffff'],
+    colors: {
+      headers: '#848484',
+      text: '#848484',
+      button: '#A2A5A5',
+      buttonText: '#FFFFFF',
+      buttonHover: '#575A5F',
+      add1: '#ffffff'
+    },
+    backgroundImage: '',
+    backgroundColor: '#F3F6F6',
+    fonts: {
+      'Roboto': {
+        variants: ['regular'],
+        subsets: ['latin']
+      }
+    },
+    setupFonts: {
+      'h1': 'Roboto',
+      'p': 'Roboto',
+      'btn': 'Roboto'
+    },
+    id: 3,
+    preview: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/b3e52349-a929-4359-acb0-981b34eabd05.jpg',
+    logo: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/ccd3d56e-e50e-4d05-acac-a0de41413f34.png'
+  },
+  {
+    type: 'Primitive 04',
+    sections: [
+      'FirstScreenPrimitive03',
+      'BlockWithImagePrimitive02',
+      'PrimitiveVideo01',
+      'FormPrimitive01',
+      'FooterPrimitive02'
+    ],
+    image: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/1d09ffd1-f500-4f65-8dc5-d1e96c01feb0.jpg',
+    description: 'Collect leads',
+    categories: [5],
+    palette: ['#848484', '#848484', '#A2A5A5', '#FFFFFF', '#575A5F', '#ffffff'],
+    colors: {
+      headers: '#848484',
+      text: '#848484',
+      button: '#A2A5A5',
+      buttonText: '#FFFFFF',
+      buttonHover: '#575A5F',
+      add1: '#ffffff'
+    },
+    backgroundImage: '',
+    backgroundColor: '#F3F6F6',
+    fonts: {
+      'Roboto': {
+        variants: ['regular'],
+        subsets: ['latin']
+      }
+    },
+    setupFonts: {
+      'h1': 'Roboto',
+      'p': 'Roboto',
+      'btn': 'Roboto'
+    },
+    id: 4,
+    preview: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/1d09ffd1-f500-4f65-8dc5-d1e96c01feb0.jpg',
     logo: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/ccd3d56e-e50e-4d05-acac-a0de41413f34.png'
   },
   {
@@ -387,8 +504,8 @@ export default [
       'FooterAshOfGods03'
     ],
     image: 'https://cdn.ptah.pro/tst/5ef9a42509b4c100015ca9d4/a60429ec-677d-4dde-b554-6352f338de98.jpg',
-    description: 'Sell subscriptions',
-    categories: [3, 2],
+    description: 'Sell multiple editions',
+    categories: [2],
     palette: ['#ECD19A', '#71675B', '#B93A27', '#ECD19A', '#71675B', '#000000'],
     colors: {
       headers: '#ECD19A',

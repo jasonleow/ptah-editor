@@ -119,7 +119,7 @@ import CarouselAshOfGods01 from '@components/sections/carousel/CarouselAshOfGods
 // import Carousel from '@components/sections/carousel/Carousel'
 
 // --- forms
-import CallToActionPrimitive02 from '@components/sections/forms/CallToActionPrimitive02'
+import FormPrimitive01 from '@components/sections/forms/FormPrimitive01'
 import CallToActionAndTextAshOfGods01 from '@components/sections/forms/CallToActionAndTextAshOfGods01'
 import FirstScreenAshOfGods06 from '@components/sections/first-screen/FirstScreenAshOfGods06'
 // import FormCenter from '@components/sections/forms/FormCenter'
@@ -295,7 +295,7 @@ const COMPONENTS = {
   // ProductsFantasy,
   // ProductsExtendFantasy,
 
-  CallToActionPrimitive02,
+  FormPrimitive01,
   BlockWithImagePrimitive01,
   BlockWithImagePrimitive02,
   CallToActionPrimitive01,
